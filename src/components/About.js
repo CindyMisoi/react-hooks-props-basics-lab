@@ -7,9 +7,8 @@ function About(user) {
   return (
     <div id="about">
       <h2>About Me</h2>
-      <p>{user.bio}</p>
       {/* conditional rendering */}
-     
+      {user.bio && user.bio.length > 1 ? <p>{user.bio}</p> : null}
       <Links/>
     </div>
   );

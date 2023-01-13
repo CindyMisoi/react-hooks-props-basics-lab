@@ -13,7 +13,7 @@ function App() {
     <div>
       <NavBar />
       <Home 
-      name= "Liza"
+      name= {"Liza"}
       city= "New York"
       color= "firebrick"
       />
